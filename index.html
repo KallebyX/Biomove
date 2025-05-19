@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomove - Próteses Mioelétricas Inteligentes</title>
+    <meta name="description" content="Biomove: Democratizando o acesso a próteses mioelétricas inteligentes com IA, impressão 3D e gamificação.">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner"></div>
+    </div>
+    
+    <!-- Skip Link para acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Biomove Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologia">Tecnologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impacto">Impacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kits">Kits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <a href="#demo" class="btn btn-primary">Agendar Demonstração</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-right">
+                    <h1>Tecnologia Assistiva <span class="text-gradient">Acessível</span> para Todos</h1>
+                    <p>A Biomove democratiza o acesso a próteses mioelétricas inteligentes através de IA, impressão 3D e gamificação, transformando vidas a um custo 10x menor.</p>
+                    <div class="d-flex">
+                        <a href="#tecnologia" class="btn btn-primary me-3">Nossa Tecnologia</a>
+                        <a href="#impacto" class="btn btn-outline-primary">Ver Impacto</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <img src="img/hero-prosthetic.png" alt="Prótese Mioelétrica Biomove">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,133.3C672,139,768,181,864,181.3C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+    </section>
+    
+    <!-- Sobre Section -->
+    <section id="sobre" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image">
+                        <img src="img/about-image.jpg" alt="Equipe Biomove">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-title">
+                        <h2>Sobre a Biomove</h2>
+                    </div>
+                    <div class="about-content">
+                        <p>A Biomove nasceu da visão de democratizar o acesso a tecnologias assistivas avançadas. Fundada por Kalleby Evangelho Mota, nossa startup desenvolve próteses mioelétricas inteligentes a um custo acessível, utilizando tecnologias como inteligência artificial, impressão 3D e gamificação.</p>
+                        <p>Incubada no programa Clareira, estamos comprometidos em transformar a vida de pessoas amputadas através da inovação tecnológica com impacto social real.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-brain"></i>
+                                    <h4>Inteligência Artificial</h4>
+                                    <p>Algoritmos que aprendem e se adaptam aos padrões de movimento únicos de cada usuário.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-print"></i>
+                                    <h4>Impressão 3D</h4>
+                                    <p>Fabricação local e personalizada, reduzindo custos e tempo de produção.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-gamepad"></i>
+                                    <h4>Gamificação</h4>
+                                    <p>Processo de reabilitação transformado em uma experiência engajadora e motivadora.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-code"></i>
+                                    <h4>Código Aberto</h4>
+                                    <p>Tecnologia acessível e colaborativa para inovação contínua e descentralizada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tecnologia Section -->
+    <section id="tecnologia" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Nossa Tecnologia</h2>
+                        <p>Combinamos hardware e software de ponta para criar próteses mioelétricas inteligentes, acessíveis e personalizáveis.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="tech-card">
+                        <i class="fas fa-wave-square"></i>
+                        <h3>Captação EMG</h3>
+                        <p>Sensores MyoWare 2.0 captam sinais musculares com alta precisão, permitindo controle intuitivo da prótese através de movimentos naturais.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-card">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Processamento Embarcado</h3>
+                        <p>Microcontroladores Arduino e Raspberry Pi processam os sinais em tempo real, garantindo resposta rápida e eficiente.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Algoritmos de IA aprendem com o uso, adaptando-se às características específicas de cada usuário para melhorar a precisão.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tech-card">
+                        <i class="fas fa-cube"></i>
+                        <h3>Design 3D Otimizado</h3>
+                        <p>Modelos 3D leves e resistentes, projetados para conforto e funcionalidade, personalizáveis para cada usuário.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tech-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Interface Intuitiva</h3>
+                        <p>Aplicativo de calibração e treinamento com feedback visual em tempo real, facilitando o aprendizado e adaptação.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="tech-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Manutenção Simplificada</h3>
+                        <p>Componentes modulares e de fácil substituição, permitindo manutenção local sem necessidade de técnicos especializados.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-10 mx-auto text-center" data-aos="fade-up">
+                    <div class="tech-video-container">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Biomove Technology Demo" allowfullscreen></iframe>
+                        </div>
+                        <p class="mt-3">Veja nossa tecnologia em ação: demonstração da prótese mioelétrica Biomove</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Impacto Section -->
+    <section id="impacto" class="section-padding impact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Nosso Impacto</h2>
+                        <p>Transformando vidas através da tecnologia acessível e inclusiva.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="impact-counter">
+                        <div class="count" data-count="90">0</div>
+                        <p>Próteses Entregues</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="impact-counter">
+                        <div class="count" data-count="15">0</div>
+                        <p>Cidades Atendidas</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="impact-counter">
+                        <div class="count" data-count="8">0</div>
+                        <p>Instituições Parceiras</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="impact-counter">
+                        <div class="count" data-count="85">0</div>
+                        <p>% de Economia</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="impact-story">
+                        <img src="img/testimonial-1.jpg" alt="Carlos Silva">
+                        <p>"A prótese da Biomove mudou minha vida. Voltei a trabalhar como mecânico, algo que achei que nunca mais seria possível. A tecnologia é incrível e o preço foi o que tornou tudo possível para mim."</p>
+                        <h4>Carlos Silva</h4>
+                        <span>Mecânico, São Paulo</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="impact-story">
+                        <img src="img/testimonial-2.jpg" alt="Dra. Mariana Costa">
+                        <p>"Como fisioterapeuta, vejo o impacto direto na reabilitação dos pacientes. A gamificação torna o processo mais engajador e os resultados são visíveis muito mais rapidamente."</p>
+                        <h4>Dra. Mariana Costa</h4>
+                        <span>Fisioterapeuta, Clínica Reabilitar</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="impact-story">
+                        <img src="img/testimonial-3.jpg" alt="Prof. Ricardo Almeida">
+                        <p>"Os kits educacionais da Biomove transformaram nosso curso de engenharia biomédica. Os alunos agora trabalham com tecnologia real e impactante, conectando teoria e prática."</p>
+                        <h4>Prof. Ricardo Almeida</h4>
+                        <span>Universidade Federal de Santa Maria</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <a href="#contato" class="btn btn-primary btn-lg">Faça Parte dessa Transformação</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Kits Section -->
+    <section id="kits" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Nossos Kits</h2>
+                        <p>Soluções para diferentes necessidades, da reabilitação à educação.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="kit-card">
+                        <div class="kit-image">
+                            <img src="img/kit-basic.jpg" alt="Kit Básico">
+                        </div>
+                        <div class="kit-content">
+                            <h3>Prótese Básica</h3>
+                            <div class="price">R$ 5.000</div>
+                            <p>Prótese mioelétrica funcional com sensor MyoWare, controle de abertura e fechamento, e calibração adaptativa.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> 1 canal EMG</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Bateria de longa duração</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Personalização básica</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Suporte remoto</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="kit-card">
+                        <div class="kit-image">
+                            <img src="img/kit-advanced.jpg" alt="Kit Avançado">
+                        </div>
+                        <div class="kit-content">
+                            <h3>Prótese Avançada</h3>
+                            <div class="price">R$ 8.000</div>
+                            <p>Versão premium com múltiplos sensores, maior precisão e funcionalidades avançadas de controle e feedback.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> 2 canais EMG</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Feedback tátil</li>
+                                <li><i class="fas fa-check text-success me-2"></i> App de controle</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Personalização avançada</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="kit-card">
+                        <div class="kit-image">
+                            <img src="img/kit-educational.jpg" alt="Kit Educacional">
+                        </div>
+                        <div class="kit-content">
+                            <h3>Kit Educacional</h3>
+                            <div class="price">R$ 2.000</div>
+                            <p>Kit completo para instituições de ensino, com componentes, sensores, material didático e acesso à plataforma.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i> Sensor MyoWare 2.0</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Arduino e componentes</li>
+                                <li><i class="fas fa-check text-success me-2"></i> Material didático</li>
+                                <li><i class="fas fa-check text-success me-2"></i> 10 licenças de software</li>
+                            </ul>
+                            <a href="#contato" class="btn btn-primary mt-3">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Demo Section -->
+    <section id="demo" class="section-padding bg-primary-gradient text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="mb-4">Agende uma Demonstração</h2>
+                    <p class="mb-4">Conheça de perto nossa tecnologia e descubra como a Biomove pode transformar vidas. Oferecemos demonstrações presenciais e remotas para profissionais de saúde, instituições e potenciais usuários.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Demonstração personalizada da tecnologia</li>
+                        <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Avaliação de necessidades específicas</li>
+                        <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Consulta com especialistas</li>
+                        <li class="mb-2"><i class="fas fa-check-circle me-2"></i> Teste prático da prótese</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 offset-lg-1" data-aos="fade-left">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="text-dark mb-4">Preencha o formulário</h4>
+                            <form id="demo-form">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nome completo" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="E-mail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control" placeholder="Telefone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <select class="form-select" required>
+                                        <option value="" selected disabled>Você é...</option>
+                                        <option value="paciente">Paciente/Usuário</option>
+                                        <option value="profissional">Profissional de Saúde</option>
+                                        <option value="instituicao">Instituição</option>
+                                        <option value="outro">Outro</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="Mensagem (opcional)"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Solicitar Demonstração</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contato Section -->
+    <section id="contato" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Entre em Contato</h2>
+                        <p>Estamos à disposição para responder suas dúvidas e discutir possíveis parcerias.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Av. Roraima, 1000 - Camobi<br>Santa Maria - RS, 97105-900</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info mb-4">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(55) 3220-8000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info mb-4">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@biomove.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Assunto" required>
+                        <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.0370062335566!2d-53.71844968494!3d-29.71187798199868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9503cb6c5d5d2d3d%3A0x9f66d7b27921e95e!2sUniversidade%20Federal%20de%20Santa%20Maria!5e0!3m2!1spt-BR!2sbr!4v1653012345678!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="footer-logo">
+                        <img src="img/logo-white.png" alt="Biomove Logo">
+                    </div>
+                    <p>Democratizando o acesso a próteses mioelétricas inteligentes através de tecnologia inovadora e impacto social.</p>
+                    <div class="footer-social mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h4>Links Rápidos</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#tecnologia">Tecnologia</a></li>
+                            <li><a href="#impacto">Impacto</a></li>
+                            <li><a href="#kits">Kits</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-md-0">
+                    <div class="footer-links">
+                        <h4>Produtos</h4>
+                        <ul>
+                            <li><a href="#">Prótese Básica</a></li>
+                            <li><a href="#">Prótese Avançada</a></li>
+                            <li><a href="#">Kit Educacional</a></li>
+                            <li><a href="#">Componentes</a></li>
+                            <li><a href="#">Software</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links">
+                        <h4>Newsletter</h4>
+                        <p>Inscreva-se para receber novidades sobre tecnologias assistivas e impacto social.</p>
+                        <form class="mt-3">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                                <button class="btn btn-primary" type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-md-0">&copy; 2025 Biomove. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Desenvolvido com <i class="fas fa-heart text-danger"></i> para impacto social</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS - Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Scripts personalizados -->
+    <script src="js/main.js"></script>
+</body>
+</html>
